@@ -908,6 +908,22 @@ button {
 
 /* Mobile  */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    
+@media screen and (max-width: 767px) {
+    .header {
+      flex-direction: column;
+    }
+    .resume_and_stuff {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .name_email {
+      flex-direction: column;
+    }
+    .department_left {
+      width: 100%;
+      max-width: unset;
+    }
+    .resume_right {
+      width: 100%;
+    }
 }
